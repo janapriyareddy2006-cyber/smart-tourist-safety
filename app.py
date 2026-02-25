@@ -6,8 +6,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Twilio credentials
-account_sid = "AC2c8af408c7b69beeba943bc76972372d"
-auth_token = "a41a0ee73ce08f60d5fb1d884a0f0566"
+account_sid = ""
+auth_token = ""
 
 client = Client(account_sid, auth_token)
 
@@ -29,7 +29,7 @@ def send_sos():
 
         message = client.messages.create(
             from_="whatsapp:+14155238886",
-            to="whatsapp:+919494619567",
+            to="whatsapp:"";
             body=message_body
         )
 
