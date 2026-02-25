@@ -28,7 +28,7 @@ def send_sos():
         )
 
         message = client.messages.create(
-            from_="whatsapp:+14155238886",
+            from_="whatsapp:"",
             to="whatsapp:"";
             body=message_body
         )
